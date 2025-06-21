@@ -1,6 +1,6 @@
-# Avaliação Quantitativa de Sumários — **OpenAI GPT‑4(o)-mini** vs. **Llama‑3 70B**
+# Avaliação Quantitativa de Resumos: **OpenAI GPT‑4(o)-mini** vs. **Llama‑3 70B**
 
-> **Fonte única da verdade:** todo o procedimento descrito aqui existe, linha a linha, no notebook **`summaries_evaluation.ipynb`**.  Este README é apenas um guia textual — siga o notebook para obter exatamente os mesmos passos, fórmulas e resultados.
+> **Fonte única da verdade:** todo o procedimento descrito aqui existe, linha a linha, no notebook **`summaries_evaluation.ipynb`**.  Este README é apenas um guia textual. Siga o notebook para obter exatamente os mesmos passos, fórmulas e resultados.
 
 ---
 
@@ -72,8 +72,7 @@ O notebook elimina linhas/colunas com valores nulos ou irrelevantes e cria dois 
 │   └── summaries_global_evaluation.csv
 ├── outputs/                # Gerado após executar o notebook
 │   ├── openai_results.csv
-│   ├── llama_results.csv
-│   └── df_scores.csv (opcional)
+│   └── llama_results.csv
 ├── summaries_evaluation.ipynb
 ├── requirements.txt
 └── README.md
@@ -89,8 +88,8 @@ O notebook elimina linhas/colunas com valores nulos ou irrelevantes e cria dois 
 ### Passo a passo para reproduzir
 ```bash
 # 1) Clone o repositório
-git clone https://github.com/<seu‑usuario>/<repo>.git
-cd <repo>
+git clone https://github.com/vtrnduda/summarization-metrics-analysis.git
+cd summarization-metrics-analysis
 
 # 2) Ambiente virtual (opcional)
 python -m venv .venv
